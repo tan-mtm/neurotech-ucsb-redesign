@@ -1,0 +1,1 @@
+export default function NeuralSignal({ gold=false }: { gold?:boolean }) { return <div className="signal" style={gold?{color:"var(--gold)"}:undefined} aria-hidden="true"><span/><span/><span/><span/><span/></div>; }
